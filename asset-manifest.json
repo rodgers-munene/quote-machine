@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quote-machine/static/css/main.520c787e.css",
+    "main.js": "/quote-machine/static/js/main.d2600805.js",
+    "index.html": "/quote-machine/index.html",
+    "main.520c787e.css.map": "/quote-machine/static/css/main.520c787e.css.map",
+    "main.d2600805.js.map": "/quote-machine/static/js/main.d2600805.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.520c787e.css",
+    "static/js/main.d2600805.js"
+  ]
+}
