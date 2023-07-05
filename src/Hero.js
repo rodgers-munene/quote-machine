@@ -12,10 +12,7 @@ const Hero = () => {
 
 
 
-  useEffect(() => {
-    getQuote()
-    randomColors();
-  }, [])
+  
 
   async function getQuote(){
     const response = await fetch("https://type.fit/api/quotes");
@@ -34,9 +31,11 @@ const randomColors = () =>{
  }
 
 
-  const btnFun = () =>{
-    getQuote();
-    randomColors();
+const btnFun = () =>{
+    // getQuote();
+    // randomColors(); 
+    setTimeout(getQuote, 50);
+    setTimeout(randomColors, 500);
   }
 
   return (
